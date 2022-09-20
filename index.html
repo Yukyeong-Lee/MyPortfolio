@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <span class="myName">What is your name?</span>
+      <button onclick="revealMyInfo('My name is Yukyeong', '.myName', '#123456')"
+      >
+        Confirm
+      </button>
+      <button
+        onclick="revealMyInfo('내 이름은 이유경입니다.', '.myName', '#123456')"
+      >
+        확인
+      </button>
+    </div>
+    <div>
+      <span class="myfreetime">What do you do in your free time?</span>
+      <button
+        onclick="revealMyInfo('Playing Guitar', '.myfreetime', '#654321')"
+      >
+        Confirm
+      </button>
+      <button
+        onclick="revealMyInfo('기타치기', '.myfreetime', '#654321')"
+      >
+        확인
+        </button>
+
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
